@@ -5,9 +5,8 @@
 }
 .header{
     background-color: #FFC300;
-    background-size: cover;
-    background-position: center;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 /* Top Bar Style */
@@ -118,13 +117,17 @@ ul > li > a{
 }
 
 /* Photo Album Style */
+.grid{
+    display: flex;
+    justify-content: center;
+}
 .photo-album{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    grid-auto-rows: 220px;
     margin-top: 50px;
+    grid-gap: 30px;
 }
 .first-frame{
     grid-row: span 2;
@@ -133,7 +136,6 @@ ul > li > a{
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    /* border: 2px solid red; */
 }
 .photo-frame:hover .photo{
     transform: scale(1.5);

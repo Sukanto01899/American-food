@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
-    .header{
-        background-size: auto;
-    }
+    /* .header{
+        width: 100;
+    } */
     .top-bar{
         flex-direction: column;
         justify-content: center;
@@ -49,9 +49,11 @@
     /* Photo Album */
     .photo-album{
         grid-template-columns: 1fr;
+        /* width:200px; */
+        justify-items: center;
     }
     .photo-frame{
-        width: 400px;
+        width: 350px;
     }
 
     /* Choose Burger Style */
@@ -73,10 +75,10 @@
         text-align: center;
     }
     .event-detail p{
-        width: 400px;
+        width: 340px;
     }
     .event-photo img{
-        width: 400px;
+        width: 350px;
     }
     .circel{
         margin-top: 30px;
