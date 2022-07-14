@@ -6,7 +6,6 @@
 .header{
     background-color: #FFC300;
     padding-bottom: 50px;
-    overflow: hidden;
 }
 
 /* Top Bar Style */
@@ -56,7 +55,6 @@ ul > li > a{
 /* Left Head Style */
 .left-head h1{
     font-size: 160px;
-    line-height: 150px;
     color: #421D0A;
 }
 .left-head h4{
@@ -264,7 +262,7 @@ ul > li > a{
 }
 .side-burger{
     position: absolute;
-    right: 140%;
+    right: 138%;
     top: -150%;
 }
 .booking-form{
@@ -301,7 +299,7 @@ ul > li > a{
 }
 .burger-plate{
     position: absolute;
-    right: -90%;
+    right: -85.713%;
     top: -50%;
 }
 .burger-plate img{
