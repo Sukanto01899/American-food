@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #FFC300;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+/* Top Bar Style */
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 20px 50px;
+}
+.delivery-num i{
+    font-size: 30px;
+    color: #421D0A;
+}
+.delivery-num h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #421D0A;
+}
+
+/* Menu Bar Style */
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    list-style-type: none;
+}
+ul li{
+    margin-left: 40px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: #421D0A;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Heading Style */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 20px 50px;
+    align-items: center;
+}
+
+/* Left Head Style */
+.left-head h1{
+    font-size: 160px;
+    line-height: 150px;
+    color: #421D0A;
+}
+.left-head h4{
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px dashed #421D0A;
+    padding: 5px;
+    text-align: center;
+    color: #421D0A;
+}
+.left-head h2{
+    font-size: 60px;
+    color: #421D0A;
+    font-family: sans-serif;
+}
+
+/* Right Head Style */
+.right-head{
+    margin-right: 100px;
+}
+.front-burger{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.back-img{
+    position: relative;
+}
+.fries{
+    position: absolute;
+    top: 80px;
+    right: 250px;
+}
+.offer{
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    background-color: red;
+    border-radius: 65px;
+    border: 2px dotted white;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    color: white;
+}
+.offer h4 h3{
+    padding: 10px;
+}
+.offer h4{
+    font-size: 50px;
+}
+.offer span{
+    font-size: 20px;
+}
+.offer h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+/* Photo Album Style */
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-auto-rows: 220px;
+    margin-top: 50px;
+}
+.first-frame{
+    grid-row: span 2;
+}
+.photo-frame{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+.photo-frame:hover .photo{
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+.photo img{
+    width: 100%;
+}
+.photo-detail{
+    position: absolute;
+    top: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    /* display: none; */
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #FFC300;
+    padding: 8px 10px 8px 10px;
+    color: #421D0A;
+    font-weight: 800;   
+}
+
+/* Burger Choose Style */
+.choose-detail{
+    text-align: center;
+    margin-top: 40px;
+}
+.choose-detail h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #421D0A;
+}
+.choose-detail p{
+    font-size: 15px;
+    color: #421D0A;
+    margin-top: 15px;
+}
+.choose-burger{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.burger, .burger-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger-detail{
+    margin-top: 50px;
+}
+.burger-detail h3{
+    font-size: 30px;
+    color: #421D0A;
+}
+.burger-detail p{
+    font-size: 18px;
+    text-align: center;
+    color: #421D0A;
+    margin-top: 15px;
+}
+.burger-detail button{
+    background-color: red;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.second-img img{
+    width: 330px;
+    height: 271px;
+}
+
+/* Upcoming Event section style */
+.event{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px;
+    border: 20px solid white;
+    box-shadow: 10px 10px 5px lightgray;
+    height: 440px;
+    border: none;
+    box-shadow: none;
+}
+.event-detail{
+    margin: 50px 10px 30px 30px;
+}
+.event-detail h3, h1, p{
+    color: #421D0A;
+}
+.event-detail h1{
+    font-size: 35px;
+}
+.event-detail p{
+    width: 500px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.circel{
+    margin-top: 130px;
+    color: lightgray;
+}
+
+/* Table Book Style */
+.booking-container{
+    display: flex;
+    justify-content: center;
+}
+.booking-detail{
+    text-align: center;
+    position: relative;
+}
+.booking-detail h1{
+    font-size: 40px;
+    color: #421D0A;
+    letter-spacing: 3px;
+}
+.side-burger{
+    position: absolute;
+    right: 140%;
+    top: -150%;
+}
+.booking-form{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+.booking-form input, button{
+    padding: 15px;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.booking-form button{
+    width: 285px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 800;
+}
+.bottle img{
+    width: 220px;
+    height: 400px;
+}
+.bottle{
+    position: absolute;
+    left: -40%;
+    top: -20%;
+}
+.burger-plate{
+    position: absolute;
+    right: -90%;
+    top: -50%;
+}
+.burger-plate img{
+
+    width: 300px;
+}
+
+/* Footer Section Style */
+.footer-container{
+    background-image: url("footer-bg.jpg");
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 20px 50px;
+    padding: 50px;
+    height: 300px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-footer img{
+    width: 250px;
+}
+.top-footer p{
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.bottom-footer h4{
+    color: white;
+}
+.location-footer i{
+    font-size: 25px;
+}
+.location-footer h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.social-logo i{
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}

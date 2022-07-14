@@ -1,0 +1,120 @@
+@media (max-width: 480px) {
+    .header{
+        background-size: auto;
+    }
+    .top-bar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .delivery-num h4{
+        font-size: 12px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    ul{
+        justify-content: center;
+    }
+    ul>li>a{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    /* Heading style */
+    .heading{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-head h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .left-head h4{
+        font-size: 10px;
+    }
+    .left-head h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .right-head{
+        margin-right: 0;
+        text-align: center;
+    }
+    .front-buger{
+        width: 60px;
+        height: 80px;
+        right: 0;
+    }
+
+    /* Photo Album */
+    .photo-album{
+        grid-template-columns: 1fr;
+    }
+    .photo-frame{
+        width: 400px;
+    }
+
+    /* Choose Burger Style */
+    .choose-burger{
+        flex-direction: column;
+    }
+    
+    /* Upcoming Event Style */
+    .event{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        height: 200px;
+        margin-top: 350px;
+        margin-bottom: 300px;
+    }
+    .event-detail{
+        margin: 0;
+        text-align: center;
+    }
+    .event-detail p{
+        width: 400px;
+    }
+    .event-photo img{
+        width: 400px;
+    }
+    .circel{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* Booking Style */
+    .booking-form{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 30px;
+    }
+    .bottle img, .burger-plate img, .side-burger img {
+        display: none;
+    }
+    .booking-detail h1{
+        font-size: 30px;
+    }
+
+    /* Footer Content */
+    .footer-container{
+        flex-direction: column;
+        height: 500px;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    .top-footer img{
+        width: 180px;
+    }
+    .bottom-footer h4{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .location-footer h4{
+        font-size: 15px;
+    }
+    .social-logo i{
+        font-size: 20px;
+    }
+}
